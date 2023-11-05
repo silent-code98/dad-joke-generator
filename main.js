@@ -8,7 +8,7 @@ const btn = document.querySelector(".generate__btn");
 //  defining the function to fetch joke from API Ninjas (API library)
 const getJoke = async () => {
   const limit = 1;
-  const API_KEY = API_SECRET;
+  const API_KEY = "API_SECRET goes here";
   const API_URI = `https://api.api-ninjas.com/v1/dadjokes?limit=${limit}`;
   // REQUEST options
   const options = {
