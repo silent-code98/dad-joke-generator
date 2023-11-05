@@ -1,3 +1,5 @@
+import { API_SECRET } from "./api-key";
+
 //  joke element
 const jokeEl = document.querySelector(".joke");
 //  button element
@@ -6,7 +8,7 @@ const btn = document.querySelector(".generate__btn");
 //  defining the function to fetch joke from API Ninjas (API library)
 const getJoke = async () => {
   const limit = 1;
-  const API_KEY = "oZnkOm9zmSyAZCiMz/iIsg==0unZ3yDSg8YbocLY";
+  const API_KEY = API_SECRET;
   const API_URI = `https://api.api-ninjas.com/v1/dadjokes?limit=${limit}`;
   // REQUEST options
   const options = {

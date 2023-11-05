@@ -1,3 +1,6 @@
 # env
 .env
 .env.local
+
+# keys
+api-key.js
