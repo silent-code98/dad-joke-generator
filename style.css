@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600&display=swap");
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*   mesh gradient */
+  background-color: hsl(0, 100%, 50%);
+  background-image: radial-gradient(at 40% 20%, hsl(28, 100%, 74%) 0px, transparent 50%), radial-gradient(at 80% 0%, hsl(189, 100%, 56%) 0px, transparent 50%), radial-gradient(at 0% 50%, hsl(355, 100%, 93%) 0px, transparent 50%), radial-gradient(at 80% 50%, hsl(340, 100%, 76%) 0px, transparent 50%), radial-gradient(at 0% 100%, hsl(22, 100%, 77%) 0px, transparent 50%), radial-gradient(at 80% 100%, hsl(242, 100%, 70%) 0px, transparent 50%), radial-gradient(at 0% 0%, hsl(343, 100%, 76%) 0px, transparent 50%);
+  /*   default */
+  width: 100%;
+  min-height: 100dvh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.joke__wrapper {
+  max-width: 720px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+  padding: 2rem 1rem;
+  border-radius: 0.35rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 1.75rem;
+}
+
+.app__name {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #e96462;
+  text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.4);
+}
+
+.joke {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+  text-shadow: 3px 2px 1px rgba(255, 255, 255, 0.1);
+  background-color: #9c44ac;
+  padding: 0.935rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 0.275rem;
+}
+
+.generate__btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #bb4994;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  outline: 0;
+  padding: 0.725rem 1.75rem;
+  cursor: pointer;
+  border: 2px solid rgba(187, 73, 148, 0.7);
+  border-radius: 0.425rem;
+}/*# sourceMappingURL=style.css.map */
